@@ -4,8 +4,9 @@ this is a test npm package publish to [github package](https://help.github.com/e
 
 ## ❓ How
 
-- [Creating a personal access token for the command line](https://help.github.com/en/articles/creating-a-personal-access-token-for-the-command-line)
-- Log in with npm using your username and personal access token
+### [Creating a personal access token for the command line](https://help.github.com/en/articles/creating-a-personal-access-token-for-the-command-line)
+
+### Log in with npm using your username and personal access token
 
 ```sh
 npm login --registry=https://npm.pkg.github.com/OWNER
@@ -14,7 +15,7 @@ npm login --registry=https://npm.pkg.github.com/OWNER
 > Email: PUBLIC EMAIL ADDRESS
 ```
 
-- Configuring package.json
+### Configuring package.json
 
 GitHub Package Registry only supports scoped NPM packages. Scoped packages have names with the format of `@owner/name` with lower case. And add an a publishConfig entry wiht `https://npm.pkg.github.com/`.
 
@@ -27,8 +28,16 @@ GitHub Package Registry only supports scoped NPM packages. Scoped packages have 
 }
 ```
 
-- Publish
+### Publish
 
 ```sh
 npm publish
 ```
+
+## 🤫 Where
+
+https://github.com/@OWNER/@REPO/packages
+
+For Example:
+
+[https://github.com/csbun/test-github-package-npm/packages](https://github.com/csbun/test-github-package-npm/packages)
