@@ -10,6 +10,9 @@
     "type": "git",
     "url": "git+https://github.com/csbun/test-github-package-npm.git"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "keywords": [
     "github",
     "package",
